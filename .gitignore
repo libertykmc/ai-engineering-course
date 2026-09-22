@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 qdrant_db/
 qdrant_chunks/
-.token usage.json
+.token_usage.json
