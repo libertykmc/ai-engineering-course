@@ -298,7 +298,7 @@ def ask_model(prompt: str, max_tokens: int = 2500) -> str:
     ) as client:
         response = client.chat({
             "messages": [{"role": "user", "content": prompt}],
-            "model": os.getenv("GIGACHAT_MODEL", "GigaChat-2"),
+            "model": "GigaChat-2",
             "temperature": 0.7,
             "max_tokens": max_tokens,
         })
