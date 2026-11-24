@@ -1,0 +1,762 @@
+[
+  {
+    "label": "reference_600_150",
+    "alias": "promtech",
+    "collection": "promtech_chunks_20261124_152914",
+    "built_at": "2026-11-24 15:29:14",
+    "model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "vector_size": 384,
+    "chunk_size": 600,
+    "overlap": 150,
+    "documents": 28,
+    "records": 176,
+    "chunks": 921,
+    "corpus_fingerprint": "d5d35e67c5006011",
+    "document_hits": 8,
+    "fact_hits": 7,
+    "total": 8,
+    "baseline_hits": 4,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "В какой срок должны устраняться критичные неисправности насосного оборудования?",
+        "in_corpus": true,
+        "best_score": 0.779937,
+        "doc_ids": [
+          "REGL-GEN-01",
+          "EXT-FNP-461",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q2",
+        "question": "В каком журнале ведётся учёт текущего контроля насосов?",
+        "in_corpus": true,
+        "best_score": 0.64273274,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "REGL-GEN-01"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q3",
+        "question": "Как часто проводится проверка знаний у персонала на работах повышенной опасности?",
+        "in_corpus": true,
+        "best_score": 0.6650238,
+        "doc_ids": [
+          "REGL-GEN-02",
+          "EXT-FNP-461",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q4",
+        "question": "В какой срок нужно сообщить об инциденте на технологической установке?",
+        "in_corpus": true,
+        "best_score": 0.6676434,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "REGL-GEN-03",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q5",
+        "question": "За какое время комиссия должна оценить степень опасности инцидента?",
+        "in_corpus": true,
+        "best_score": 0.8048269,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-03",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q6",
+        "question": "Какая производительность у магистрального конвейера КМ-101?",
+        "in_corpus": true,
+        "best_score": 0.736292,
+        "doc_ids": [
+          "CARD-КМ-101",
+          "CARD-ВЕНТ-А1",
+          "CARD-ЧПУ-12"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q7",
+        "question": "Что случилось с реле давления насоса НМ-205?",
+        "in_corpus": true,
+        "best_score": 0.7521813,
+        "doc_ids": [
+          "INC-2026-001",
+          "CARD-НМ-205",
+          "EXT-REGL-TRUB"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q8",
+        "question": "Какие типовые неисправности у гидравлического пресса П-7?",
+        "in_corpus": true,
+        "best_score": 0.76423204,
+        "doc_ids": [
+          "INC-2026-005",
+          "CARD-П-7",
+          "INC-2026-002"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q9",
+        "question": "Как оформить отпуск и кому подавать заявление?",
+        "in_corpus": false,
+        "best_score": 0.43719018,
+        "doc_ids": [
+          "EXT-REGL-TO",
+          "EXT-FNP-461",
+          "REGL-GEN-02"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q10",
+        "question": "Какая зарплата у мастера смены?",
+        "in_corpus": false,
+        "best_score": 0.47834247,
+        "doc_ids": [
+          "EXT-REGL-TO",
+          "EXT-FNP-461",
+          "REGL-GEN-03"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q11",
+        "question": "Какое давление в шинах погрузчика?",
+        "in_corpus": false,
+        "best_score": 0.7390303,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      }
+    ]
+  },
+  {
+    "label": "reference_400_0",
+    "alias": "promtech",
+    "collection": "promtech_chunks_20261124_152923",
+    "built_at": "2026-11-24 15:29:23",
+    "model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "vector_size": 384,
+    "chunk_size": 400,
+    "overlap": 0,
+    "documents": 28,
+    "records": 176,
+    "chunks": 1028,
+    "corpus_fingerprint": "d5d35e67c5006011",
+    "document_hits": 6,
+    "fact_hits": 6,
+    "total": 8,
+    "baseline_hits": 4,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "В какой срок должны устраняться критичные неисправности насосного оборудования?",
+        "in_corpus": true,
+        "best_score": 0.779937,
+        "doc_ids": [
+          "REGL-GEN-01",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q2",
+        "question": "В каком журнале ведётся учёт текущего контроля насосов?",
+        "in_corpus": true,
+        "best_score": 0.6632283,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q3",
+        "question": "Как часто проводится проверка знаний у персонала на работах повышенной опасности?",
+        "in_corpus": true,
+        "best_score": 0.7232344,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "EXT-FNP-461",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q4",
+        "question": "В какой срок нужно сообщить об инциденте на технологической установке?",
+        "in_corpus": true,
+        "best_score": 0.66557217,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-03",
+          "INC-2026-011"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q5",
+        "question": "За какое время комиссия должна оценить степень опасности инцидента?",
+        "in_corpus": true,
+        "best_score": 0.8048269,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-03",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q6",
+        "question": "Какая производительность у магистрального конвейера КМ-101?",
+        "in_corpus": true,
+        "best_score": 0.736292,
+        "doc_ids": [
+          "CARD-КМ-101",
+          "EXT-GOST-32601",
+          "CARD-ЧПУ-12"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q7",
+        "question": "Что случилось с реле давления насоса НМ-205?",
+        "in_corpus": true,
+        "best_score": 0.7521813,
+        "doc_ids": [
+          "INC-2026-001",
+          "CARD-НМ-205",
+          "INC-2026-005"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q8",
+        "question": "Какие типовые неисправности у гидравлического пресса П-7?",
+        "in_corpus": true,
+        "best_score": 0.76423204,
+        "doc_ids": [
+          "INC-2026-005",
+          "CARD-П-7",
+          "INC-2026-002"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q9",
+        "question": "Как оформить отпуск и кому подавать заявление?",
+        "in_corpus": false,
+        "best_score": 0.41622493,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "EXT-FNP-461",
+          "EXT-REGL-TO"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q10",
+        "question": "Какая зарплата у мастера смены?",
+        "in_corpus": false,
+        "best_score": 0.5048822,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "EXT-REGL-TO",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q11",
+        "question": "Какое давление в шинах погрузчика?",
+        "in_corpus": false,
+        "best_score": 0.728284,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      }
+    ]
+  },
+  {
+    "label": "reference_1000_200",
+    "alias": "promtech",
+    "collection": "promtech_chunks_20261124_152929",
+    "built_at": "2026-11-24 15:29:29",
+    "model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "vector_size": 384,
+    "chunk_size": 1000,
+    "overlap": 200,
+    "documents": 28,
+    "records": 176,
+    "chunks": 563,
+    "corpus_fingerprint": "d5d35e67c5006011",
+    "document_hits": 7,
+    "fact_hits": 7,
+    "total": 8,
+    "baseline_hits": 4,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "В какой срок должны устраняться критичные неисправности насосного оборудования?",
+        "in_corpus": true,
+        "best_score": 0.779937,
+        "doc_ids": [
+          "REGL-GEN-01",
+          "EXT-GOST-32601",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q2",
+        "question": "В каком журнале ведётся учёт текущего контроля насосов?",
+        "in_corpus": true,
+        "best_score": 0.64888537,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q3",
+        "question": "Как часто проводится проверка знаний у персонала на работах повышенной опасности?",
+        "in_corpus": true,
+        "best_score": 0.6650238,
+        "doc_ids": [
+          "REGL-GEN-02",
+          "EXT-FNP-461",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q4",
+        "question": "В какой срок нужно сообщить об инциденте на технологической установке?",
+        "in_corpus": true,
+        "best_score": 0.66557217,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "EXT-FNP-461",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q5",
+        "question": "За какое время комиссия должна оценить степень опасности инцидента?",
+        "in_corpus": true,
+        "best_score": 0.8048269,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-03",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q6",
+        "question": "Какая производительность у магистрального конвейера КМ-101?",
+        "in_corpus": true,
+        "best_score": 0.736292,
+        "doc_ids": [
+          "CARD-КМ-101",
+          "CARD-ВЕНТ-А1",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q7",
+        "question": "Что случилось с реле давления насоса НМ-205?",
+        "in_corpus": true,
+        "best_score": 0.7521813,
+        "doc_ids": [
+          "INC-2026-001",
+          "CARD-НМ-205",
+          "INC-2026-005"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q8",
+        "question": "Какие типовые неисправности у гидравлического пресса П-7?",
+        "in_corpus": true,
+        "best_score": 0.76423204,
+        "doc_ids": [
+          "INC-2026-005",
+          "CARD-П-7",
+          "INC-2026-002"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q9",
+        "question": "Как оформить отпуск и кому подавать заявление?",
+        "in_corpus": false,
+        "best_score": 0.38347808,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "EXT-FNP-461",
+          "EXT-REGL-TO"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q10",
+        "question": "Какая зарплата у мастера смены?",
+        "in_corpus": false,
+        "best_score": 0.47834247,
+        "doc_ids": [
+          "EXT-REGL-TO",
+          "EXT-FNP-461",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q11",
+        "question": "Какое давление в шинах погрузчика?",
+        "in_corpus": false,
+        "best_score": 0.6759594,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      }
+    ]
+  },
+  {
+    "label": "reference_300_150",
+    "alias": "promtech",
+    "collection": "promtech_chunks_20261124_152945",
+    "built_at": "2026-11-24 15:29:45",
+    "model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "vector_size": 384,
+    "chunk_size": 300,
+    "overlap": 150,
+    "documents": 28,
+    "records": 176,
+    "chunks": 2600,
+    "corpus_fingerprint": "d5d35e67c5006011",
+    "document_hits": 8,
+    "fact_hits": 5,
+    "total": 8,
+    "baseline_hits": 4,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "В какой срок должны устраняться критичные неисправности насосного оборудования?",
+        "in_corpus": true,
+        "best_score": 0.78533155,
+        "doc_ids": [
+          "REGL-GEN-01",
+          "REGL-GEN-01",
+          "EXT-FNP-461"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q2",
+        "question": "В каком журнале ведётся учёт текущего контроля насосов?",
+        "in_corpus": true,
+        "best_score": 0.6591892,
+        "doc_ids": [
+          "REGL-GEN-01",
+          "EXT-GOST-32601",
+          "REGL-GEN-01"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q3",
+        "question": "Как часто проводится проверка знаний у персонала на работах повышенной опасности?",
+        "in_corpus": true,
+        "best_score": 0.71741277,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "REGL-GEN-02",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q4",
+        "question": "В какой срок нужно сообщить об инциденте на технологической установке?",
+        "in_corpus": true,
+        "best_score": 0.6885426,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-03",
+          "REGL-GEN-03"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q5",
+        "question": "За какое время комиссия должна оценить степень опасности инцидента?",
+        "in_corpus": true,
+        "best_score": 0.79928756,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-03",
+          "REGL-GEN-03"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q6",
+        "question": "Какая производительность у магистрального конвейера КМ-101?",
+        "in_corpus": true,
+        "best_score": 0.77783287,
+        "doc_ids": [
+          "CARD-КМ-101",
+          "CARD-КМ-101",
+          "CARD-КТ-500.2"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q7",
+        "question": "Что случилось с реле давления насоса НМ-205?",
+        "in_corpus": true,
+        "best_score": 0.7521813,
+        "doc_ids": [
+          "INC-2026-001",
+          "INC-2026-001",
+          "CARD-КТ-500.2"
+        ],
+        "fact_found": true
+      },
+      {
+        "id": "q8",
+        "question": "Какие типовые неисправности у гидравлического пресса П-7?",
+        "in_corpus": true,
+        "best_score": 0.76423204,
+        "doc_ids": [
+          "INC-2026-005",
+          "CARD-П-7",
+          "INC-2026-002"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q9",
+        "question": "Как оформить отпуск и кому подавать заявление?",
+        "in_corpus": false,
+        "best_score": 0.4534983,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "EXT-FNP-461",
+          "EXT-REGL-TO"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q10",
+        "question": "Какая зарплата у мастера смены?",
+        "in_corpus": false,
+        "best_score": 0.5342354,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "EXT-REGL-TO",
+          "EXT-REGL-TO"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q11",
+        "question": "Какое давление в шинах погрузчика?",
+        "in_corpus": false,
+        "best_score": 0.7659155,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      }
+    ]
+  },
+  {
+    "label": "my_600_150",
+    "alias": "promtech",
+    "collection": "promtech_chunks_20261124_152954",
+    "built_at": "2026-11-24 15:29:54",
+    "model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "vector_size": 384,
+    "chunk_size": 600,
+    "overlap": 150,
+    "documents": 28,
+    "records": 167,
+    "chunks": 906,
+    "corpus_fingerprint": "393a2dd71320a405",
+    "document_hits": 7,
+    "fact_hits": 0,
+    "total": 8,
+    "baseline_hits": 8,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "В какой срок должны устраняться критичные неисправности насосного оборудования?",
+        "in_corpus": true,
+        "best_score": 0.7317707,
+        "doc_ids": [
+          "EXT-FNP-461",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q2",
+        "question": "В каком журнале ведётся учёт текущего контроля насосов?",
+        "in_corpus": true,
+        "best_score": 0.67553604,
+        "doc_ids": [
+          "REGL-GEN-01",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q3",
+        "question": "Как часто проводится проверка знаний у персонала на работах повышенной опасности?",
+        "in_corpus": true,
+        "best_score": 0.731652,
+        "doc_ids": [
+          "REGL-GEN-02",
+          "REGL-GEN-02",
+          "REGL-GEN-02"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q4",
+        "question": "В какой срок нужно сообщить об инциденте на технологической установке?",
+        "in_corpus": true,
+        "best_score": 0.7344941,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "REGL-GEN-01",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q5",
+        "question": "За какое время комиссия должна оценить степень опасности инцидента?",
+        "in_corpus": true,
+        "best_score": 0.7112253,
+        "doc_ids": [
+          "REGL-GEN-03",
+          "EXT-FNP-461",
+          "EXT-FNP-461"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q6",
+        "question": "Какая производительность у магистрального конвейера КМ-101?",
+        "in_corpus": true,
+        "best_score": 0.73491114,
+        "doc_ids": [
+          "CARD-КМ-101",
+          "CARD-ЧПУ-12",
+          "CARD-КТ-500.2"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q7",
+        "question": "Что случилось с реле давления насоса НМ-205?",
+        "in_corpus": true,
+        "best_score": 0.5761261,
+        "doc_ids": [
+          "INC-2026-001",
+          "INC-2026-007",
+          "INC-2026-009"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q8",
+        "question": "Какие типовые неисправности у гидравлического пресса П-7?",
+        "in_corpus": true,
+        "best_score": 0.7198857,
+        "doc_ids": [
+          "CARD-П-7",
+          "INC-2026-012",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q9",
+        "question": "Как оформить отпуск и кому подавать заявление?",
+        "in_corpus": false,
+        "best_score": 0.43719018,
+        "doc_ids": [
+          "EXT-REGL-TO",
+          "EXT-FNP-461",
+          "REGL-GEN-02"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q10",
+        "question": "Какая зарплата у мастера смены?",
+        "in_corpus": false,
+        "best_score": 0.47834247,
+        "doc_ids": [
+          "EXT-REGL-TO",
+          "EXT-FNP-461",
+          "REGL-GEN-02"
+        ],
+        "fact_found": false
+      },
+      {
+        "id": "q11",
+        "question": "Какое давление в шинах погрузчика?",
+        "in_corpus": false,
+        "best_score": 0.7390303,
+        "doc_ids": [
+          "EXT-GOST-32601",
+          "EXT-GOST-32601",
+          "EXT-GOST-32601"
+        ],
+        "fact_found": false
+      }
+    ]
+  }
+]
