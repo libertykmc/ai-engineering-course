@@ -4,3 +4,11 @@
 {"timestamp": "2026-11-25T07:55:42.306475+00:00", "action": "create_incident", "params": {"equipment_id": "SEP-04", "priority": "high", "role": "engineer"}, "ok": true}
 {"timestamp": "2026-11-25T07:55:45.104159+00:00", "action": "create_incident", "params": {"equipment_id": "SEP-04", "priority": "high", "role": "viewer"}, "ok": false}
 {"timestamp": "2026-11-25T07:55:47.727658+00:00", "action": "create_incident", "params": {"equipment_id": "SEP-04", "priority": "urgent", "role": "engineer"}, "ok": false}
+{"timestamp": "2026-11-25T08:05:13.508723+00:00", "action": "get_equipment_status", "params": {"equipment_id": "n123"}, "ok": false}
+{"timestamp": "2026-11-25T08:05:33.273560+00:00", "action": "get_equipment_status", "params": {"equipment_id": "PUMP-07"}, "ok": true}
+{"timestamp": "2026-11-25T08:05:57.889404+00:00", "action": "create_incident", "params": {"equipment_id": "PUMP-07", "priority": "medium", "role": "engineer"}, "ok": true}
+{"timestamp": "2026-11-25T08:06:33.215312+00:00", "action": "create_incident", "params": {"equipment_id": "SEP-04", "priority": "critical", "role": "admin"}, "ok": true}
+{"timestamp": "2026-11-25T08:06:50.458666+00:00", "action": "create_incident", "params": {"equipment_id": "PUMP-07", "priority": "urgent", "role": "engineer"}, "ok": false}
+{"timestamp": "2026-11-25T08:07:15.565251+00:00", "action": "create_incident", "params": {"equipment_id": "CONV-09", "priority": "low", "role": "viewer"}, "ok": false}
+{"timestamp": "2026-11-25T08:07:32.222466+00:00", "action": "create_incident", "params": {"equipment_id": "CONV-99", "priority": "high", "role": "engineer"}, "ok": false}
+{"timestamp": "2026-11-25T08:07:51.454355+00:00", "action": "get_equipment_status", "params": {"equipment_id": "PUMP-07"}, "ok": false}
