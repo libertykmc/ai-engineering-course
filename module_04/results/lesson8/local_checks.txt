@@ -1,0 +1,23 @@
+test_classification_and_priority (__main__.EvaluationChecks.test_classification_and_priority) ... ok
+test_conflict_fixture_is_removed_after_error (__main__.EvaluationChecks.test_conflict_fixture_is_removed_after_error) ... ok
+test_conflict_uses_date_not_score_and_keeps_order (__main__.EvaluationChecks.test_conflict_uses_date_not_score_and_keeps_order) ... ok
+test_current_chunks_and_unpaired_documents_survive (__main__.EvaluationChecks.test_current_chunks_and_unpaired_documents_survive) ... ok
+test_judge_failure_is_not_success (__main__.EvaluationChecks.test_judge_failure_is_not_success) ... ok
+test_judge_messages_and_valid_json (__main__.EvaluationChecks.test_judge_messages_and_valid_json) ... ok
+test_sweep_excludes_outside_questions (__main__.EvaluationChecks.test_sweep_excludes_outside_questions) ... КОНФЛИКТ ВЕРСИЙ: 921 чанка
+Фикстура убрана; индекс восстановлен: 921 чанков
+Размер / нахлёст | чанков | по разметке | по судье
+ 400 / 0   |     12 | 1/2 | 2/2 (ошибок судьи: 0)
+Индекс восстановлен: 600/150
+ok
+test_sweep_restores_after_error (__main__.EvaluationChecks.test_sweep_restores_after_error) ...
+ИТОГОВАЯ ТАБЛИЦА
+400 / 0 | 12 | 1/2 | 2/2
+Размер / нахлёст | чанков | по разметке | по судье
+Индекс восстановлен: 600/150
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK

@@ -1,0 +1,10 @@
+test_answer_passes_question_and_full_context (__main__.RagChecks.test_answer_passes_question_and_full_context) ... ok
+test_full_context_and_locations (__main__.RagChecks.test_full_context_and_locations) ... ok
+test_gate_boundary (__main__.RagChecks.test_gate_boundary) ... ok
+test_prompt_contract (__main__.RagChecks.test_prompt_contract) ... ok
+test_refusal_skips_generator (__main__.RagChecks.test_refusal_skips_generator) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
